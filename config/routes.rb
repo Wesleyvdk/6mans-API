@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get "replays/create"
   get "servers/index"
   get "servers/show"
   get "servers/create"
@@ -78,4 +79,7 @@ Rails.application.routes.draw do
 
   # Servers - Discord server management
   resources :servers, only: [ :index, :show, :create, :update, :destroy ]
+
+  # Replays - Upload and view replays
+  resources :replays, only: [ :create ]
 end
