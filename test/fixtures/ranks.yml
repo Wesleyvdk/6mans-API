@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  account: one
+  rank_tier: MyString
+  division: 1
+
+two:
+  account: two
+  rank_tier: MyString
+  division: 1
