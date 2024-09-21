@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_09_10_160536) do
+ActiveRecord::Schema[7.2].define(version: 2024_09_10_160331) do
   create_table "accounts", force: :cascade do |t|
     t.integer "user_id", null: false
     t.string "rl_account_id"
@@ -93,6 +93,8 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_10_160536) do
 
   create_table "teams", force: :cascade do |t|
     t.string "name"
+    t.string "description"
+    t.string "owner_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -100,12 +102,12 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_10_160536) do
   create_table "users", force: :cascade do |t|
     t.string "discord_id"
     t.string "username"
+    t.integer "wins", default: 0
+    t.integer "losses", default: 0
+    t.integer "total_games", default: 0
+    t.integer "streak", default: 0
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "wins"
-    t.integer "losses"
-    t.integer "total_games"
-    t.integer "streak"
   end
 
   add_foreign_key "accounts", "users"

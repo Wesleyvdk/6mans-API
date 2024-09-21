@@ -11,7 +11,7 @@ class TeamsController < ApplicationController
 
   def create
     @team = Team.new(team_params)
-    @team.owner_id = current_user.id
+    @team.owner_id = current_user.discord_id
 
     if @team.save
       render json: @team, status: :created

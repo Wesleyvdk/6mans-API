@@ -1,4 +1,9 @@
 class UsersController < ApplicationController
+  def index
+    @user = User.all
+    render json: @user
+  end
+
   def show
     @user = User.find(params[:id])
     render json: @user
@@ -22,6 +27,12 @@ class UsersController < ApplicationController
     }
 
     render json: stats
+  end
+
+  def destroy
+    @user = User.find(params[:id])
+    @user.destroy
+    head :no_content
   end
 
   private

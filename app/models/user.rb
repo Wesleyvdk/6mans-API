@@ -5,11 +5,6 @@ class User < ApplicationRecord
     has_many :team_memberships
     validates :discord_id, presence: true, uniqueness: true
 
-    t.integer :wins, default: 0
-    t.integer :losses, default: 0
-    t.integer :total_games, default: 0
-    t.integer :streak, default: 0
-
     def update_stats!(match)
         # Example logic: check if the user won or lost and update the stats
         if match.winning_team == self.team_for_match(match)

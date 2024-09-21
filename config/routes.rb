@@ -25,6 +25,8 @@ Rails.application.routes.draw do
   get "accounts/create"
   get "accounts/update"
   get "accounts/destroy"
+  get "accounts/index"
+  get "users/index"
   get "users/show"
   get "users/stats"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
@@ -38,7 +40,7 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   # Users - Profiles and overall stats
-  resources :users, only: [ :show ] do
+  resources :users, only: [ :show, :destroy ] do
     member do
       get :stats
     end
