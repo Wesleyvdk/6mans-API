@@ -29,7 +29,7 @@ test:
 # ensure the database is located in a persisted volume.
 production:
   <<: *default
-  database: 6mans_production
+  database: 6mans
   username: production
   password: Rails.application.credentials.dig(:production, :db_password)
   # database: path/to/persistent/storage/production.sqlite3
