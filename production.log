@@ -1,0 +1,273 @@
+[ N 2024-09-21 19:21:31.0165 4170091/T1 age/Wat/WatchdogMain.cpp:1370 ]: Starting Passenger watchdog...
+[ N 2024-09-21 19:21:31.0700 4170095/T1 age/Cor/CoreMain.cpp:1341 ]: Starting Passenger core...
+[ N 2024-09-21 19:21:31.0703 4170095/T1 age/Cor/CoreMain.cpp:257 ]: Passenger core running in multi-application mode.
+[ N 2024-09-21 19:21:31.0861 4170095/T1 age/Cor/CoreMain.cpp:1016 ]: Passenger core online, PID 4170095
+[ E 2024-09-21 19:21:33.2446 4170095/T6 age/Cor/SecurityUpdateChecker.h:506 ]: Security update check failed: HTTP 500 while connecting to https://securitycheck.phusionpassenger.com/v1/check.json (if this error persists check your connection security or try upgrading Passenger) (next check in 24 hours)
+
+[ N 2024-09-21 19:23:58.2896 4170095/T9 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2024-09-21 19:23:58.2896 4170095/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2024-09-21 19:23:58.2897 4170095/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 4170172, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-21 19:23:58.2898 4170095/Tc Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2024-09-21 19:23:58.2898 4170095/Td Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2024-09-21 19:23:58.2898 4170095/Tc Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2024-09-21 19:23:58.2898 4170095/Td Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2024-09-21 19:23:58.2899 4170095/Tf Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2024-09-21 19:23:58.2899 4170095/Tf Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2024-09-21 19:23:58.2899 4170095/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2024-09-21 19:23:58.2899 4170095/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2024-09-21 19:23:58.2901 4170095/Th Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2024-09-21 19:23:58.2901 4170095/Th Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2024-09-21 19:23:58.2903 4170095/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 4170172, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-21 19:23:58.7018 4170095/T1 age/Cor/CoreMain.cpp:1326 ]: Passenger core shutdown finished
+[ N 2024-09-23 10:29:41.8844 368138/T1 age/Wat/WatchdogMain.cpp:1370 ]: Starting Passenger watchdog...
+[ N 2024-09-23 10:29:41.9463 368142/T1 age/Cor/CoreMain.cpp:1341 ]: Starting Passenger core...
+[ N 2024-09-23 10:29:41.9547 368142/T1 age/Cor/CoreMain.cpp:257 ]: Passenger core running in multi-application mode.
+[ N 2024-09-23 10:29:41.9777 368142/T1 age/Cor/CoreMain.cpp:1016 ]: Passenger core online, PID 368142
+[ E 2024-09-23 10:29:44.1846 368142/T6 age/Cor/SecurityUpdateChecker.h:506 ]: Security update check failed: HTTP 500 while connecting to https://securitycheck.phusionpassenger.com/v1/check.json (if this error persists check your connection security or try upgrading Passenger) (next check in 24 hours)
+
+[ N 2024-09-23 10:44:07.6821 368142/Ta age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2024-09-23 10:44:07.6822 368142/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2024-09-23 10:44:07.6823 368142/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 368219, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 10:44:07.6827 368142/Ta Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2024-09-23 10:44:07.6829 368142/Ta Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2024-09-23 10:44:07.6830 368142/Td Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2024-09-23 10:44:07.6830 368142/Td Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2024-09-23 10:44:07.6830 368142/Tf Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2024-09-23 10:44:07.6831 368142/Tf Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2024-09-23 10:44:07.6831 368142/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2024-09-23 10:44:07.6831 368142/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2024-09-23 10:44:07.6834 368142/Th Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2024-09-23 10:44:07.6834 368142/Th Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2024-09-23 10:44:07.6877 368142/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 368219, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 10:44:08.0919 368142/T1 age/Cor/CoreMain.cpp:1326 ]: Passenger core shutdown finished
+[ N 2024-09-23 10:44:10.1769 371712/T1 age/Wat/WatchdogMain.cpp:1370 ]: Starting Passenger watchdog...
+[ N 2024-09-23 10:44:10.2000 371716/T1 age/Cor/CoreMain.cpp:1341 ]: Starting Passenger core...
+[ N 2024-09-23 10:44:10.2003 371716/T1 age/Cor/CoreMain.cpp:257 ]: Passenger core running in multi-application mode.
+[ N 2024-09-23 10:44:10.2113 371716/T1 age/Cor/CoreMain.cpp:1016 ]: Passenger core online, PID 371716
+[ E 2024-09-23 10:44:12.3797 371716/T6 age/Cor/SecurityUpdateChecker.h:506 ]: Security update check failed: HTTP 500 while connecting to https://securitycheck.phusionpassenger.com/v1/check.json (if this error persists check your connection security or try upgrading Passenger) (next check in 24 hours)
+
+[ N 2024-09-23 10:47:56.5807 371716/T9 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2024-09-23 10:47:56.5808 371716/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2024-09-23 10:47:56.5809 371716/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 371793, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 10:47:56.5812 371716/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2024-09-23 10:47:56.5812 371716/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2024-09-23 10:47:56.5816 371716/Td Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2024-09-23 10:47:56.5816 371716/Td Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2024-09-23 10:47:56.5816 371716/Tf Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2024-09-23 10:47:56.5816 371716/Tf Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2024-09-23 10:47:56.5816 371716/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2024-09-23 10:47:56.5817 371716/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2024-09-23 10:47:56.5819 371716/Th Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2024-09-23 10:47:56.5819 371716/Th Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2024-09-23 10:47:56.5829 371716/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 371793, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 10:47:56.9934 371716/T1 age/Cor/CoreMain.cpp:1326 ]: Passenger core shutdown finished
+[ N 2024-09-23 10:47:57.9355 372690/T1 age/Wat/WatchdogMain.cpp:1370 ]: Starting Passenger watchdog...
+[ N 2024-09-23 10:47:57.9604 372694/T1 age/Cor/CoreMain.cpp:1341 ]: Starting Passenger core...
+[ N 2024-09-23 10:47:57.9607 372694/T1 age/Cor/CoreMain.cpp:257 ]: Passenger core running in multi-application mode.
+[ N 2024-09-23 10:47:57.9753 372694/T1 age/Cor/CoreMain.cpp:1016 ]: Passenger core online, PID 372694
+[ E 2024-09-23 10:48:00.2099 372694/T6 age/Cor/SecurityUpdateChecker.h:506 ]: Security update check failed: HTTP 500 while connecting to https://securitycheck.phusionpassenger.com/v1/check.json (if this error persists check your connection security or try upgrading Passenger) (next check in 24 hours)
+
+[ N 2024-09-23 10:50:36.7555 372694/Ta age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2024-09-23 10:50:36.7556 372694/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2024-09-23 10:50:36.7556 372694/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 372776, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 10:50:36.7558 372694/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2024-09-23 10:50:36.7558 372694/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2024-09-23 10:50:36.7558 372694/Tf Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2024-09-23 10:50:36.7558 372694/Tf Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2024-09-23 10:50:36.7559 372694/Td Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2024-09-23 10:50:36.7559 372694/Td Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2024-09-23 10:50:36.7560 372694/Th Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2024-09-23 10:50:36.7560 372694/Th Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2024-09-23 10:50:36.7560 372694/Ta Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2024-09-23 10:50:36.7561 372694/Ta Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2024-09-23 10:50:36.7562 372694/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 372776, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 10:50:37.1696 372694/T1 age/Cor/CoreMain.cpp:1326 ]: Passenger core shutdown finished
+[ N 2024-09-23 10:50:38.6034 373483/T1 age/Wat/WatchdogMain.cpp:1370 ]: Starting Passenger watchdog...
+[ N 2024-09-23 10:50:38.6340 373487/T1 age/Cor/CoreMain.cpp:1341 ]: Starting Passenger core...
+[ N 2024-09-23 10:50:38.6350 373487/T1 age/Cor/CoreMain.cpp:257 ]: Passenger core running in multi-application mode.
+[ N 2024-09-23 10:50:38.6503 373487/T1 age/Cor/CoreMain.cpp:1016 ]: Passenger core online, PID 373487
+[ E 2024-09-23 10:50:40.8129 373487/T6 age/Cor/SecurityUpdateChecker.h:506 ]: Security update check failed: HTTP 500 while connecting to https://securitycheck.phusionpassenger.com/v1/check.json (if this error persists check your connection security or try upgrading Passenger) (next check in 24 hours)
+
+[ N 2024-09-23 10:53:02.3084 373487/T9 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2024-09-23 10:53:02.3085 373487/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2024-09-23 10:53:02.3085 373487/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 373564, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 10:53:02.3087 373487/Td Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2024-09-23 10:53:02.3088 373487/Td Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2024-09-23 10:53:02.3088 373487/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2024-09-23 10:53:02.3089 373487/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2024-09-23 10:53:02.3089 373487/Tg Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2024-09-23 10:53:02.3089 373487/Tg Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2024-09-23 10:53:02.3089 373487/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2024-09-23 10:53:02.3089 373487/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2024-09-23 10:53:02.3091 373487/Ti Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2024-09-23 10:53:02.3091 373487/Ti Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2024-09-23 10:53:02.3094 373487/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 373564, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 10:53:02.7375 373487/T1 age/Cor/CoreMain.cpp:1326 ]: Passenger core shutdown finished
+[ N 2024-09-23 10:58:18.0024 374959/T1 age/Wat/WatchdogMain.cpp:1370 ]: Starting Passenger watchdog...
+[ N 2024-09-23 10:58:18.0329 374963/T1 age/Cor/CoreMain.cpp:1341 ]: Starting Passenger core...
+[ N 2024-09-23 10:58:18.0350 374963/T1 age/Cor/CoreMain.cpp:257 ]: Passenger core running in multi-application mode.
+[ N 2024-09-23 10:58:18.0519 374963/T1 age/Cor/CoreMain.cpp:1016 ]: Passenger core online, PID 374963
+[ E 2024-09-23 10:58:20.2124 374963/T6 age/Cor/SecurityUpdateChecker.h:506 ]: Security update check failed: HTTP 500 while connecting to https://securitycheck.phusionpassenger.com/v1/check.json (if this error persists check your connection security or try upgrading Passenger) (next check in 24 hours)
+
+[ N 2024-09-23 11:20:50.6324 374963/T9 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2024-09-23 11:20:50.6325 374963/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2024-09-23 11:20:50.6326 374963/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 375140, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 11:20:50.6330 374963/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2024-09-23 11:20:50.6332 374963/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2024-09-23 11:20:50.6333 374963/Tc Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2024-09-23 11:20:50.6333 374963/Tc Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2024-09-23 11:20:50.6335 374963/Te Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2024-09-23 11:20:50.6335 374963/Te Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2024-09-23 11:20:50.6335 374963/Tf Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2024-09-23 11:20:50.6335 374963/Tf Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2024-09-23 11:20:50.6340 374963/Th Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2024-09-23 11:20:50.6341 374963/Th Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2024-09-23 11:20:50.6358 374963/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 375140, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 11:20:51.0478 374963/T1 age/Cor/CoreMain.cpp:1326 ]: Passenger core shutdown finished
+[ N 2024-09-23 11:20:52.4377 379340/T1 age/Wat/WatchdogMain.cpp:1370 ]: Starting Passenger watchdog...
+[ N 2024-09-23 11:20:52.4593 379344/T1 age/Cor/CoreMain.cpp:1341 ]: Starting Passenger core...
+[ N 2024-09-23 11:20:52.4596 379344/T1 age/Cor/CoreMain.cpp:257 ]: Passenger core running in multi-application mode.
+[ N 2024-09-23 11:20:52.4710 379344/T1 age/Cor/CoreMain.cpp:1016 ]: Passenger core online, PID 379344
+[ E 2024-09-23 11:20:54.6278 379344/T6 age/Cor/SecurityUpdateChecker.h:506 ]: Security update check failed: HTTP 500 while connecting to https://securitycheck.phusionpassenger.com/v1/check.json (if this error persists check your connection security or try upgrading Passenger) (next check in 24 hours)
+
+[ N 2024-09-23 11:31:28.5378 379344/T9 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2024-09-23 11:31:28.5380 379344/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2024-09-23 11:31:28.5380 379344/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 379421, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 11:31:28.5383 379344/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2024-09-23 11:31:28.5383 379344/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2024-09-23 11:31:28.5384 379344/Td Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2024-09-23 11:31:28.5384 379344/Td Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2024-09-23 11:31:28.5385 379344/Tg Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2024-09-23 11:31:28.5385 379344/Tg Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2024-09-23 11:31:28.5386 379344/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2024-09-23 11:31:28.5387 379344/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2024-09-23 11:31:28.5389 379344/Ti Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2024-09-23 11:31:28.5389 379344/Ti Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2024-09-23 11:31:28.5414 379344/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 379421, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 11:31:28.9600 379344/T1 age/Cor/CoreMain.cpp:1326 ]: Passenger core shutdown finished
+[ N 2024-09-23 11:31:30.1643 381735/T1 age/Wat/WatchdogMain.cpp:1370 ]: Starting Passenger watchdog...
+[ N 2024-09-23 11:31:30.1860 381739/T1 age/Cor/CoreMain.cpp:1341 ]: Starting Passenger core...
+[ N 2024-09-23 11:31:30.1862 381739/T1 age/Cor/CoreMain.cpp:257 ]: Passenger core running in multi-application mode.
+[ N 2024-09-23 11:31:30.1994 381739/T1 age/Cor/CoreMain.cpp:1016 ]: Passenger core online, PID 381739
+[ E 2024-09-23 11:31:32.5357 381739/T6 age/Cor/SecurityUpdateChecker.h:506 ]: Security update check failed: HTTP 500 while connecting to https://securitycheck.phusionpassenger.com/v1/check.json (if this error persists check your connection security or try upgrading Passenger) (next check in 24 hours)
+
+[ N 2024-09-23 11:33:54.7534 381739/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2024-09-23 11:33:54.7535 381739/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2024-09-23 11:33:54.7536 381739/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 381889, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 11:33:54.7539 381739/Td Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2024-09-23 11:33:54.7539 381739/Td Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2024-09-23 11:33:54.7539 381739/Tc Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2024-09-23 11:33:54.7539 381739/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2024-09-23 11:33:54.7540 381739/Tc Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2024-09-23 11:33:54.7540 381739/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2024-09-23 11:33:54.7541 381739/Tf Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2024-09-23 11:33:54.7541 381739/Tf Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2024-09-23 11:33:54.7543 381739/Th Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2024-09-23 11:33:54.7544 381739/Th Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2024-09-23 11:33:54.7551 381739/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 381889, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 11:33:55.1830 381739/T1 age/Cor/CoreMain.cpp:1326 ]: Passenger core shutdown finished
+[ N 2024-09-23 11:33:56.5054 382927/T1 age/Wat/WatchdogMain.cpp:1370 ]: Starting Passenger watchdog...
+[ N 2024-09-23 11:33:56.5283 382931/T1 age/Cor/CoreMain.cpp:1341 ]: Starting Passenger core...
+[ N 2024-09-23 11:33:56.5287 382931/T1 age/Cor/CoreMain.cpp:257 ]: Passenger core running in multi-application mode.
+[ N 2024-09-23 11:33:56.5386 382931/T1 age/Cor/CoreMain.cpp:1016 ]: Passenger core online, PID 382931
+[ E 2024-09-23 11:33:58.7291 382931/T6 age/Cor/SecurityUpdateChecker.h:506 ]: Security update check failed: HTTP 500 while connecting to https://securitycheck.phusionpassenger.com/v1/check.json (if this error persists check your connection security or try upgrading Passenger) (next check in 24 hours)
+
+[ N 2024-09-23 11:39:40.6395 382931/T9 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2024-09-23 11:39:40.6396 382931/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2024-09-23 11:39:40.6397 382931/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 383008, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 11:39:40.6398 382931/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2024-09-23 11:39:40.6398 382931/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2024-09-23 11:39:40.6399 382931/Tg Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2024-09-23 11:39:40.6399 382931/Tg Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2024-09-23 11:39:40.6399 382931/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2024-09-23 11:39:40.6399 382931/Td Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2024-09-23 11:39:40.6399 382931/Td Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2024-09-23 11:39:40.6400 382931/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2024-09-23 11:39:40.6401 382931/Th Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2024-09-23 11:39:40.6401 382931/Th Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2024-09-23 11:39:40.6406 382931/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 383008, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 11:39:41.0640 382931/T1 age/Cor/CoreMain.cpp:1326 ]: Passenger core shutdown finished
+[ N 2024-09-23 13:08:15.4249 405650/T1 age/Wat/WatchdogMain.cpp:1370 ]: Starting Passenger watchdog...
+[ N 2024-09-23 13:08:15.4767 405662/T1 age/Cor/CoreMain.cpp:1341 ]: Starting Passenger core...
+[ N 2024-09-23 13:08:15.4831 405662/T1 age/Cor/CoreMain.cpp:257 ]: Passenger core running in multi-application mode.
+[ N 2024-09-23 13:08:15.5169 405662/T1 age/Cor/CoreMain.cpp:1016 ]: Passenger core online, PID 405662
+[ E 2024-09-23 13:08:17.6893 405662/T6 age/Cor/SecurityUpdateChecker.h:506 ]: Security update check failed: HTTP 500 while connecting to https://securitycheck.phusionpassenger.com/v1/check.json (if this error persists check your connection security or try upgrading Passenger) (next check in 24 hours)
+
+[ N 2024-09-23 13:11:32.4915 405662/T9 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2024-09-23 13:11:32.4916 405662/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2024-09-23 13:11:32.4917 405662/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 406019, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 13:11:32.4920 405662/Tc Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2024-09-23 13:11:32.4920 405662/Tc Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2024-09-23 13:11:32.4921 405662/Te Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2024-09-23 13:11:32.4921 405662/Te Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2024-09-23 13:11:32.4921 405662/Tg Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2024-09-23 13:11:32.4921 405662/Tg Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2024-09-23 13:11:32.4922 405662/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2024-09-23 13:11:32.4923 405662/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2024-09-23 13:11:32.4925 405662/Ti Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2024-09-23 13:11:32.4925 405662/Ti Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2024-09-23 13:11:32.4938 405662/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 406019, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 13:11:32.9169 405662/T1 age/Cor/CoreMain.cpp:1326 ]: Passenger core shutdown finished
+[ N 2024-09-23 13:42:20.6872 416269/T1 age/Wat/WatchdogMain.cpp:1370 ]: Starting Passenger watchdog...
+[ N 2024-09-23 13:42:20.7080 416273/T1 age/Cor/CoreMain.cpp:1341 ]: Starting Passenger core...
+[ N 2024-09-23 13:42:20.7084 416273/T1 age/Cor/CoreMain.cpp:257 ]: Passenger core running in multi-application mode.
+[ N 2024-09-23 13:42:20.7219 416273/T1 age/Cor/CoreMain.cpp:1016 ]: Passenger core online, PID 416273
+[ E 2024-09-23 13:42:22.9052 416273/T6 age/Cor/SecurityUpdateChecker.h:506 ]: Security update check failed: HTTP 500 while connecting to https://securitycheck.phusionpassenger.com/v1/check.json (if this error persists check your connection security or try upgrading Passenger) (next check in 24 hours)
+
+[ N 2024-09-23 13:42:42.0641 416273/Ta age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2024-09-23 13:42:42.0642 416273/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2024-09-23 13:42:42.0642 416273/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 416447, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 13:42:42.0644 416273/Te Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2024-09-23 13:42:42.0644 416273/Te Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2024-09-23 13:42:42.0645 416273/Ta Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2024-09-23 13:42:42.0645 416273/Ta Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2024-09-23 13:42:42.0663 416273/Tc Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2024-09-23 13:42:42.0663 416273/Tc Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2024-09-23 13:42:42.0674 416273/Tg Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2024-09-23 13:42:42.0674 416273/Tg Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2024-09-23 13:42:42.0677 416273/Ti Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2024-09-23 13:42:42.0677 416273/Ti Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2024-09-23 13:42:42.0681 416273/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 416447, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 13:42:42.4654 416273/T1 age/Cor/CoreMain.cpp:1326 ]: Passenger core shutdown finished
+[ N 2024-09-23 14:05:18.4868 420446/T1 age/Wat/WatchdogMain.cpp:1370 ]: Starting Passenger watchdog...
+[ N 2024-09-23 14:05:18.5153 420450/T1 age/Cor/CoreMain.cpp:1341 ]: Starting Passenger core...
+[ N 2024-09-23 14:05:18.5156 420450/T1 age/Cor/CoreMain.cpp:257 ]: Passenger core running in multi-application mode.
+[ N 2024-09-23 14:05:18.5247 420450/T1 age/Cor/CoreMain.cpp:1016 ]: Passenger core online, PID 420450
+[ E 2024-09-23 14:05:20.6461 420450/T6 age/Cor/SecurityUpdateChecker.h:506 ]: Security update check failed: HTTP 500 while connecting to https://securitycheck.phusionpassenger.com/v1/check.json (if this error persists check your connection security or try upgrading Passenger) (next check in 24 hours)
+
+[ N 2024-09-23 14:06:50.1779 420450/T9 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2024-09-23 14:06:50.1779 420450/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2024-09-23 14:06:50.1780 420450/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 420527, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 14:06:50.1781 420450/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2024-09-23 14:06:50.1781 420450/Td Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2024-09-23 14:06:50.1781 420450/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2024-09-23 14:06:50.1782 420450/Td Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2024-09-23 14:06:50.1782 420450/Tf Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2024-09-23 14:06:50.1782 420450/Tf Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2024-09-23 14:06:50.1786 420450/Ti Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2024-09-23 14:06:50.1786 420450/Ti Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2024-09-23 14:06:50.1787 420450/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2024-09-23 14:06:50.1787 420450/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2024-09-23 14:06:50.1795 420450/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 420527, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 14:06:50.5916 420450/T1 age/Cor/CoreMain.cpp:1326 ]: Passenger core shutdown finished
+[ N 2024-09-23 14:09:41.8645 421942/T1 age/Wat/WatchdogMain.cpp:1370 ]: Starting Passenger watchdog...
+[ N 2024-09-23 14:09:41.8849 421946/T1 age/Cor/CoreMain.cpp:1341 ]: Starting Passenger core...
+[ N 2024-09-23 14:09:41.8852 421946/T1 age/Cor/CoreMain.cpp:257 ]: Passenger core running in multi-application mode.
+[ N 2024-09-23 14:09:41.8975 421946/T1 age/Cor/CoreMain.cpp:1016 ]: Passenger core online, PID 421946
+[ E 2024-09-23 14:09:43.9865 421946/T6 age/Cor/SecurityUpdateChecker.h:506 ]: Security update check failed: HTTP 500 while connecting to https://securitycheck.phusionpassenger.com/v1/check.json (if this error persists check your connection security or try upgrading Passenger) (next check in 24 hours)
+
+[ N 2024-09-23 14:10:35.0292 421946/Ta age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2024-09-23 14:10:35.0293 421946/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2024-09-23 14:10:35.0293 421946/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 422023, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 14:10:35.0295 421946/Td Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2024-09-23 14:10:35.0295 421946/Td Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2024-09-23 14:10:35.0295 421946/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2024-09-23 14:10:35.0296 421946/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2024-09-23 14:10:35.0296 421946/Tf Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2024-09-23 14:10:35.0296 421946/Tf Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2024-09-23 14:10:35.0296 421946/Ta Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2024-09-23 14:10:35.0296 421946/Ta Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2024-09-23 14:10:35.0411 421946/Th Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2024-09-23 14:10:35.0411 421946/Th Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2024-09-23 14:10:35.0426 421946/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 422023, application /home/ehzgodd/6mans-API (production)
+[ N 2024-09-23 14:10:35.4074 421946/T1 age/Cor/CoreMain.cpp:1326 ]: Passenger core shutdown finished
