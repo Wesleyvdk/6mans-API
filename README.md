@@ -20,7 +20,7 @@ The API does not directly handle user authentication. Instead, authentication is
 ## **Base URL**
 
 ```http
-https://api.aylanibot.app
+https://api.aylanibot.app/api/
 ```
 
 ---
