@@ -7,8 +7,7 @@
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
 
-server '84.247.166.101', user: 'production', roles: %w{app db web}
-
+server 'api.aylanibot.app', user: 'production', roles: %w{app db web}
 # role-based syntax
 # ==================
 
@@ -41,9 +40,10 @@ server '84.247.166.101', user: 'production', roles: %w{app db web}
 #
 # Global options
 # --------------
-#  set :ssh_options, {
+#set :ssh_options, {
 #    keys: %w(/home/user_name/.ssh/id_rsa),
-#    forward_agent: false,
+#    forward_agent: true,
+#    user: 'production'
 #    auth_methods: %w(password)
 #  }
 #

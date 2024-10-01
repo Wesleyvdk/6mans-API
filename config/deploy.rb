@@ -6,6 +6,8 @@ set :repo_url, "git@github.com:Wesleyvdk/6mans-API.git"
 
 set :deploy_to, "/home/production/#{fetch :application}"
 
+
+set :linked_files, %w{config/database.yml config/master.key}
 append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', '.bundle', 'public/system', 'public/uploads'
 
 # Only keep the last 5 releases to save disk space
@@ -29,12 +31,12 @@ set :keep_releases, 5
 
 # Default value for :linked_files is []
 # append :linked_files, "config/database.yml", 'config/master.key'
-
+#
 # Default value for linked_dirs is []
 # append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system", "vendor", "storage"
 
 # Default value for default_env is {}
-# set :default_env, { path: "/opt/ruby/bin:$PATH" }
+set :default_env, { 'RAILS_MASTER_KEY' => '1b3cd1afb86290e01b2f0ba0bf4917ae' }
 
 # Default value for local_user is ENV['USER']
 # set :local_user, -> { `git config user.name`.chomp }
@@ -44,3 +46,15 @@ set :keep_releases, 5
 
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :secure
+
+namespace :deploy do
+	desc 'Restart application'
+	task :restart do
+		on roles(:app), in: :sequence, wait: 5 do
+			execute :touch, release_path.join('tmp/restart.txt')
+		end
+	end
+
+	after :publishing, 'deploy:restart'
+	after :finishing, 'deploy:cleanup'
+end
