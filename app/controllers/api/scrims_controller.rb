@@ -1,4 +1,5 @@
-class ScrimsController < ApplicationController
+
+class Api::ScrimsController < ApplicationController
   def index
     @scrims = Scrim.all
     render json: @scrims

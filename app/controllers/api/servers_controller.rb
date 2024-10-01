@@ -1,4 +1,5 @@
-class ServersController < ApplicationController
+
+class Api::ServersController < ApplicationController
   def index
     @servers = Server.all
     render json: @servers

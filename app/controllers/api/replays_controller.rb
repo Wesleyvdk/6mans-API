@@ -1,4 +1,4 @@
-class ReplaysController < ApplicationController
+class Api::ReplaysController < ApplicationController
   def create
     if params[:file].nil?
       render json: { error: "No file uploaded" }, status: :unprocessable_entity

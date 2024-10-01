@@ -1,4 +1,4 @@
-class QueuesController < ApplicationController
+class Api::QueuesController < ApplicationController
   def index
     @queues = Queue.all
     render json: @queue

@@ -1,4 +1,4 @@
-class AccountsController < ApplicationController
+class Api::AccountsController < ApplicationController
   def index 
     @accounts = Account.all
     render json: @accounts
