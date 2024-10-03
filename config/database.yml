@@ -5,12 +5,13 @@
 #   gem "sqlite3"
 #
 default: &default
-  adapter: postgresql
-  encoding: unicode
+
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 development:
   <<: *default
+  adapter: sqlite3
+  encoding: unicode
   database: storage/development.sqlite3
 
 # Warning: The database defined as "test" will be erased and
@@ -29,6 +30,8 @@ test:
 # ensure the database is located in a persisted volume.
 production:
   <<: *default
+  adapter: postgresql
+  encoding: unicode
   database: 6mans
   username: production
   password: Rails.application.credentials.dig(:production, :db_password)

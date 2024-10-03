@@ -3,6 +3,7 @@ class User < ApplicationRecord
     has_many :queues
     has_many :teams, through: :team_memberships
     has_many :team_memberships
+    has_many :matches, through: :match_participants
     validates :discord_id, presence: true, uniqueness: true
 
     def update_stats!(match)
