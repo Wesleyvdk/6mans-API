@@ -55,3 +55,26 @@ class Api::UsersController < ApplicationController
     end
   end
 end
+
+def get_average(user)
+  matches = user.match_participants.includes(:match)
+  total_games = matches.count
+  total_score = matches.sum(:score)
+  total_goals = matches.sum(:goals)
+  total_assists = matches.sum(:assists)
+  total_saves = matches.sum(:saves)
+  total_shots = matches.sum(:shots)
+
+  average_score = total_games > 0 ? (total_score.to_f / total_games).round(1) : 0
+  average_goals = total_games > 0 ? (total_goals.to_f / total_games).round(1) : 0
+  average_assists = total_games > 0 ? (total_assists.to_f / total_games).round(1) : 0
+  average_saves = total_games > 0 ? (total_saves.to_f / total_games).round(1) : 0
+  average_shots = total_games > 0 ? (total_shots.to_f / total_games).round(1) : 0
+  {
+    average_score: average_score
+    average_goals: average_goals
+    average_assists: average_assists
+    average_saves: average_saves
+    average_shots: average_shots
+  }
+end
