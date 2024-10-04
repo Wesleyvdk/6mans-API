@@ -17,6 +17,7 @@ class Api::UsersController < ApplicationController
     total_losses = total_games - total_wins
     win_percentage = total_games > 0 ? (total_wins.to_f / total_games * 100).round(2) : 0
     current_streak = calculate_streak(@user)
+    average_stats = get_average(@user)
 
     stats = {
       total_games: total_games,
@@ -24,6 +25,7 @@ class Api::UsersController < ApplicationController
       total_losses: total_losses,
       win_percentage: win_percentage,
       current_streak: current_streak
+      average_stats: average_stats
     }
 
     render json: stats
