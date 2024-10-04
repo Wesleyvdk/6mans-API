@@ -38,11 +38,17 @@ class Api::UsersController < ApplicationController
   private
 
   def calculate_streak(user)
-    # Sample method to calculate win/loss streak
     streak = 0
-    user.matches.order(created_at: :desc).each do |match|
-      if match.winner == user
-        streak += 1
+    matches = user.match_participants.includes(:match).order('matches.created_at DESC')
+    current_team = nil
+    matches.each do |participant|
+      if participant.match.winner == participant.team
+        if current_team.nil? || current_team == participant.team
+          streak += 1
+          current_team = participant.team
+        else 
+          break
+        end
       else
         break
       end

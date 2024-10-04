@@ -292,3 +292,46 @@
 [ N 2024-09-30 15:18:39.0613 2196089/Ti Ser/Server.h:558 ]: [ApiServer] Shutdown finished
 [ N 2024-09-30 15:18:39.0664 2196089/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 2196167, application /home/ehzgodd/6mans-API (production)
 [ N 2024-09-30 15:18:39.4754 2196089/T1 age/Cor/CoreMain.cpp:1326 ]: Passenger core shutdown finished
+[ N 2024-10-03 17:55:43.5964 18483/T1 age/Wat/WatchdogMain.cpp:1370 ]: Starting Passenger watchdog...
+[ N 2024-10-03 17:55:43.6051 18487/T1 age/Cor/CoreMain.cpp:1341 ]: Starting Passenger core...
+[ N 2024-10-03 17:55:43.6052 18487/T1 age/Cor/CoreMain.cpp:257 ]: Passenger core running in multi-application mode.
+[ N 2024-10-03 17:55:43.6564 18487/T1 age/Cor/CoreMain.cpp:1016 ]: Passenger core online, PID 18487
+[ N 2024-10-03 17:55:45.8291 18487/T6 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2024-10-03 17:55:48.0051 18487/Ta age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2024-10-03 17:55:48.0052 18487/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2024-10-03 17:55:48.0052 18487/Ta Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2024-10-03 17:55:48.0052 18487/Ta Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2024-10-03 17:55:48.0053 18487/Tf Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2024-10-03 17:55:48.0053 18487/Tf Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2024-10-03 17:55:48.0053 18487/Th Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2024-10-03 17:55:48.0053 18487/Th Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2024-10-03 17:55:48.0053 18487/Tj Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2024-10-03 17:55:48.0053 18487/Tj Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2024-10-03 17:55:48.0054 18487/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2024-10-03 17:55:48.0054 18487/Tn Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2024-10-03 17:55:48.0054 18487/Tn Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2024-10-03 17:55:48.0054 18487/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2024-10-03 17:55:48.0054 18487/Tp Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2024-10-03 17:55:48.0054 18487/Tp Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2024-10-03 17:55:48.0054 18487/Tt Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2024-10-03 17:55:48.0054 18487/Tt Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2024-10-03 17:55:48.0054 18487/Tl Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2024-10-03 17:55:48.0054 18487/Tl Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2024-10-03 17:55:48.0054 18487/Tx Ser/Server.h:901 ]: [ServerThr.13] Freed 0 spare client objects
+[ N 2024-10-03 17:55:48.0055 18487/Tx Ser/Server.h:558 ]: [ServerThr.13] Shutdown finished
+[ N 2024-10-03 17:55:48.0055 18487/T11 Ser/Server.h:901 ]: [ServerThr.15] Freed 0 spare client objects
+[ N 2024-10-03 17:55:48.0055 18487/Tv Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2024-10-03 17:55:48.0055 18487/T11 Ser/Server.h:558 ]: [ServerThr.15] Shutdown finished
+[ N 2024-10-03 17:55:48.0055 18487/T13 Ser/Server.h:901 ]: [ServerThr.16] Freed 0 spare client objects
+[ N 2024-10-03 17:55:48.0055 18487/Tv Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2024-10-03 17:55:48.0055 18487/T13 Ser/Server.h:558 ]: [ServerThr.16] Shutdown finished
+[ N 2024-10-03 17:55:48.0055 18487/Tz Ser/Server.h:901 ]: [ServerThr.14] Freed 0 spare client objects
+[ N 2024-10-03 17:55:48.0056 18487/Td Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2024-10-03 17:55:48.0056 18487/Tz Ser/Server.h:558 ]: [ServerThr.14] Shutdown finished
+[ N 2024-10-03 17:55:48.0056 18487/Tr Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2024-10-03 17:55:48.0056 18487/Td Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2024-10-03 17:55:48.0056 18487/T15 Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2024-10-03 17:55:48.0056 18487/Tr Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2024-10-03 17:55:48.0056 18487/T15 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2024-10-03 17:55:48.3700 18487/T1 age/Cor/CoreMain.cpp:1326 ]: Passenger core shutdown finished
