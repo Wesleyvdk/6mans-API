@@ -17,7 +17,7 @@ class Api::UsersController < ApplicationController
     total_losses = total_games - total_wins
     win_percentage = total_games > 0 ? (total_wins.to_f / total_games * 100).round(2) : 0
     current_streak = calculate_streak(@user)
-    average_stats = get_average(@user)
+    scoreboard_stats = get_stats(@user)
 
     stats = {
       total_games: total_games,
@@ -25,7 +25,7 @@ class Api::UsersController < ApplicationController
       total_losses: total_losses,
       win_percentage: win_percentage,
       current_streak: current_streak,
-      average_stats: average_stats
+      average_stats: scoreboard_stats
     }
 
     render json: stats
@@ -56,8 +56,8 @@ class Api::UsersController < ApplicationController
     end
     streak
   end
-  
-  def get_average(user)
+
+  def get_stats(user)
     matches = user.match_participants.includes(:match)
     total_games = matches.count
     total_score = matches.sum(:score)
@@ -72,7 +72,11 @@ class Api::UsersController < ApplicationController
     average_saves = total_games > 0 ? (total_saves.to_f / total_games).round(1) : 0
     average_shots = total_games > 0 ? (total_shots.to_f / total_games).round(1) : 0
   
-    average_stats = {
+    stats = {
+      total_goals: total_goals,
+      total_assists: total_assists,
+      total_saves: total_saves,
+      total_shots: total_shots,
       average_score: average_score,
       average_goals: average_goals,
       average_assists: average_assists,
