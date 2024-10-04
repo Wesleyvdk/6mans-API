@@ -55,6 +55,7 @@ class Api::UsersController < ApplicationController
       end
     end
   end
+  streak
 end
 
 def get_average(user)
