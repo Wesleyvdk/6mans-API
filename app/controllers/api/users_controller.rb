@@ -72,7 +72,7 @@ def get_average(user)
   average_assists = total_games > 0 ? (total_assists.to_f / total_games).round(1) : 0
   average_saves = total_games > 0 ? (total_saves.to_f / total_games).round(1) : 0
   average_shots = total_games > 0 ? (total_shots.to_f / total_games).round(1) : 0
-  {
+  average_stats = {
     average_score: average_score
     average_goals: average_goals
     average_assists: average_assists
