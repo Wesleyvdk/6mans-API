@@ -25,7 +25,7 @@ class Api::UsersController < ApplicationController
       total_losses: total_losses,
       win_percentage: win_percentage,
       current_streak: current_streak,
-      average_stats: scoreboard_stats
+      scoreboard_stats: scoreboard_stats
     }
 
     render json: stats
