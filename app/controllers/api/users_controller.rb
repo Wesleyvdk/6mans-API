@@ -47,7 +47,6 @@ class Api::UsersController < ApplicationController
       if participant.match.winner == participant.team
         if current_team.nil? || current_team == participant.team
           streak += 1
-          current_team = participant.team
         else 
           break
         end
