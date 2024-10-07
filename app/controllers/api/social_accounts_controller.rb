@@ -1,5 +1,5 @@
 # app/controllers/social_accounts_controller.rb
-class SocialAccountsController < ApplicationController
+class Api::SocialAccountsController < ApplicationController
     def index
       @social_accounts = SocialAccount.all
       render json: @social_accounts

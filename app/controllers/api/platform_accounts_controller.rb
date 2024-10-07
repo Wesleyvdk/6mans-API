@@ -1,4 +1,4 @@
-class PlatformAccountsController < ApplicationController
+class Api::PlatformAccountsController < ApplicationController
     def index
         @platform_accounts = PlatformAccount.all
         render json: @platform_accounts
