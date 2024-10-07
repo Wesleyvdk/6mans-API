@@ -4,6 +4,11 @@ class Api::PlatformAccountsController < ApplicationController
         render json: @platform_accounts
     end
 
+    def show
+        @platform_account = PlatformAccount.find(params[:id])
+        render json: @platform_account
+      end
+
     def create
         @platform_account = PlatformAccount.new(platform_account_params)
         @platform_account.user_id = current_user.id

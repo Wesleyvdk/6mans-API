@@ -4,6 +4,11 @@ class Api::SocialAccountsController < ApplicationController
       @social_accounts = SocialAccount.all
       render json: @social_accounts
     end
+
+    def show
+        @social_account = SocialAccount.find(params[:id])
+        render json: @social_account
+      end
   
     def create
       @social_account = SocialAccount.new(social_account_params)
