@@ -49,6 +49,8 @@ Rails.application.routes.draw do
 
     # Accounts - Linking different platform accounts to a user
     resources :accounts, only: [ :create, :update, :destroy ]
+    resources :platform_accounts, only: [ :create, :update, :destroy]
+    resources :social_accounts, only: [ :create, :update, :destroy]
 
     # Matches - Viewing match stats and details
     resources :matches, only: [ :index, :show ] do

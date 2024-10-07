@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_09_10_160331) do
+ActiveRecord::Schema[7.2].define(version: 2024_10_07_081710) do
   create_table "accounts", force: :cascade do |t|
     t.integer "user_id", null: false
     t.string "rl_account_id"
@@ -40,6 +40,16 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_10_160331) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["queue_id"], name: "index_matches_on_queue_id"
+  end
+
+  create_table "platform_accounts", force: :cascade do |t|
+    t.integer "user_id", null: false
+    t.string "platform"
+    t.string "profile_link"
+    t.string "identifier"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_platform_accounts_on_user_id"
   end
 
   create_table "queues", force: :cascade do |t|
@@ -82,6 +92,16 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_10_160331) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "social_accounts", force: :cascade do |t|
+    t.integer "user_id", null: false
+    t.string "platform"
+    t.string "profile_link"
+    t.string "identifier"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_social_accounts_on_user_id"
+  end
+
   create_table "team_memberships", force: :cascade do |t|
     t.integer "user_id", null: false
     t.integer "team_id", null: false
@@ -114,12 +134,14 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_10_160331) do
   add_foreign_key "match_participants", "matches"
   add_foreign_key "match_participants", "users"
   add_foreign_key "matches", "queues"
+  add_foreign_key "platform_accounts", "users"
   add_foreign_key "queues", "accounts"
   add_foreign_key "queues", "servers"
   add_foreign_key "queues", "users"
   add_foreign_key "ranks", "accounts"
   add_foreign_key "scrims", "team_ones"
   add_foreign_key "scrims", "team_twos"
+  add_foreign_key "social_accounts", "users"
   add_foreign_key "team_memberships", "teams"
   add_foreign_key "team_memberships", "users"
 end

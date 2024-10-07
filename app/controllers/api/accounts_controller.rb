@@ -35,6 +35,6 @@ class Api::AccountsController < ApplicationController
   private
 
   def account_params
-    params.require(:account).permit(:platform, :identifier)
+    params.require(:account).permit(:platform, :profile_link, :social_accounts, :identifier)
   end
 end

@@ -25,6 +25,10 @@ class Api::QueuesController < ApplicationController
     head :no_content
   end
 
+  def user_in_queue?(user_id)
+    Queue.exists?(user_id: user_id)
+  end
+
   def join
     @queue = Queue.find_by(server_id: params[:server_id])
     if @queue.users.include?(current_user)
