@@ -169,8 +169,8 @@ GEM
       rack (>= 1.6.13)
       rackup
       rake (>= 12.3.3)
-    pg (1.5.8)
-    pg (1.5.8-x64-mingw-ucrt)
+    pg (1.5.9)
+    pg (1.5.9-x64-mingw-ucrt)
     psych (5.1.2)
       stringio
     puma (6.4.2)
