@@ -10,7 +10,7 @@ gem 'unicorn', ">= 6.0"
 gem 'ostruct'
 gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
 gem "passenger", ">= 5.3.2", require: "phusion_passenger/rack_handler"
-gem 'capistrano', '~> 3.11'
+gem 'capistrano', '~> 3.19'
 gem 'capistrano-rails', '~> 1.4'
 gem 'capistrano-passenger', '~> 0.2.0'
 gem 'capistrano-rbenv', '~>2.1', '>=2.1.4'
